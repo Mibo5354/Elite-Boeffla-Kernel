@@ -1296,7 +1296,7 @@ static void initialize_global_variables(void)
 	speaker_l = SPEAKER_DEFAULT;
 	speaker_r = SPEAKER_DEFAULT;
 
-	speaker_tuning = OFF;
+	speaker_tuning = ON;
 
 	eq = EQ_DEFAULT;
 
@@ -1329,7 +1329,7 @@ static void initialize_global_variables(void)
 
 	dac_oversampling = ON;
 
-	fll_tuning = OFF;
+	fll_tuning = ON;
 
 	stereo_expansion_gain = STEREO_EXPANSION_GAIN_OFF;
 
