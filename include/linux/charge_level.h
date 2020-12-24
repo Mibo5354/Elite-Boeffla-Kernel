@@ -22,7 +22,7 @@ extern int ignore_safety_margin;
 #ifdef CONFIG_MACH_T0
 #define AC_CHARGE_LEVEL_DEFAULT 600
 #else
-#define AC_CHARGE_LEVEL_DEFAULT 1100
+#define AC_CHARGE_LEVEL_DEFAULT 600
 #endif
 #define AC_CHARGE_LEVEL_MIN 0
 
